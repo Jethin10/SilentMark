@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {"android":{"default":{"projectId":"jet-auth-v1","appId":"1:835836104380:android:1ceeee9b2d9c7ee2d7cab9","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"jet-auth-v1","configurations":{"android":"1:835836104380:android:1ceeee9b2d9c7ee2d7cab9","ios":"1:835836104380:ios:02ee4bef0b0fc0efd7cab9","macos":"1:835836104380:ios:02ee4bef0b0fc0efd7cab9","web":"1:835836104380:web:b1fc4df705071405d7cab9","windows":"1:835836104380:web:2cd825e55cba4522d7cab9"}}}}}}
